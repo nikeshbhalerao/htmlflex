@@ -1,0 +1,28 @@
+.container{
+    background-color: lightblue;
+    height: 400px;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap:  wrap; */
+    flex-flow: row wrap;
+/* 
+    justify-content: space-around; */
+
+    /* align-items: flex-start; */
+
+    align-content: center;
+
+    /* gap: 10px 30px; */
+    row-gap: 40px;
+    column-gap: 29px;
+}
+
+.container .item{
+    width: 20%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 2px;
+}
